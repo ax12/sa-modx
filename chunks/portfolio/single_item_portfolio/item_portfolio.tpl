@@ -42,6 +42,80 @@
                         {/if}
                     </div>
                 </div>
+
+                <section class="accordion page-section-ptb">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="accordion mb-3">
+                                    <div class="acd-group text-black">
+                                        <a href="#" class="acd-heading acd-active"><span class="ti-bar-chart-alt"></span>We always Support within one business day.</a>
+                                        <div class="acd-des" style="display: none;">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                                    </div>
+                                    <div class="acd-group">
+                                        <a href="#" class="acd-heading text-black"><span class="ti-pulse"></span> We deliver Top Rankings.</a>
+                                        <div class="acd-des" style="display: none;">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                                    </div>
+                                    <div class="acd-group acd-active">
+                                        <a href="#" class="acd-heading text-black"><span class="ti-shield"></span> High customer retention rate.</a>
+                                        <div class="acd-des" style="display: block;">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="accordion mb-3">
+                                    <div class="acd-group text-black acd-active">
+                                        <a href="#" class="acd-heading"> We always Support within one business day.</a>
+                                        <div class="acd-des" style="display: block;">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                                    </div>
+                                    <div class="acd-group">
+                                        <a href="#" class="acd-heading text-black"> We deliver Top Rankings.</a>
+                                        <div class="acd-des" style="display: none;">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                                    </div>
+                                    <div class="acd-group">
+                                        <a href="#" class="acd-heading text-black"> High customer retention rate.</a>
+                                        <div class="acd-des" style="display: none;">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-6">
+                                <div class="accordion simple black mb-3">
+                                    <div class="acd-group">
+                                        <a href="#" class="acd-heading">01. Super-fast support</a>
+                                        <div class="acd-des text-gray" style="display: none;">Adipisicing elit lorem ipsum dolor sit amet, consectetur. Tempora, ab officiis ducimus commodi, quibusdam similique quam corporis sequi, id, voluptates suscipit quasi nisi. Qui, explicabo quod laborum alias vero aliquid.</div>
+                                    </div>
+                                    <div class="acd-group">
+                                        <a href="#" class="acd-heading">02. Super-fast support</a>
+                                        <div class="acd-des text-gray" style="display: none;">Quibusdam similique quam corporis sequi adipisicing elit lorem ipsum dolor sit amet, consectetur. Tempora, ab officiis ducimus commodi, id, voluptates suscipit quasi nisi. Qui, explicabo quod laborum alias vero aliquid.</div>
+                                    </div>
+                                    <div class="acd-group">
+                                        <a href="#" class="acd-heading">03. Super-fast support</a>
+                                        <div class="acd-des text-gray" style="display: none;">Tempora, ab officiis ducimus commodi quibusdam similique quam corporis sequi adipisicing elit lorem ipsum dolor sit amet, consectetur. id, voluptates suscipit quasi nisi. Qui, explicabo quod laborum alias vero aliquid.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="accordion icon">
+                                    <div class="acd-group">
+                                        <a href="#" class="acd-heading"><span class="ti-bar-chart-alt text-blue"></span>We always Support within one business day.</a>
+                                        <div class="acd-des" style="display: none;">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                                    </div>
+                                    <div class="acd-group">
+                                        <a href="#" class="acd-heading text-black"><span class="ti-pulse text-blue"></span> We deliver Top Rankings.</a>
+                                        <div class="acd-des" style="display: none;">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                                    </div>
+                                    <div class="acd-group">
+                                        <a href="#" class="acd-heading text-black"><span class="ti-shield text-blue"></span> High customer retention rate.</a>
+                                        <div class="acd-des" style="display: none;">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
             </div>
         </div>
         <a href=""></a>

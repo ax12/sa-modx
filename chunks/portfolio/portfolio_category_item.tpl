@@ -7,7 +7,7 @@ case-studies  -->
             'parents' => $_modx->resource.id,
             'tpl' => '@FILE chunks/portfolio/single_item_portfolio/tpl_portfolio_item_in_category.tpl',
 
-            'includeTVs' => 'image',
+            'includeTVs' => 'image, is_yadro, cms',
             'processTVs' => 1,
 
 
