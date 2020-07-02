@@ -1,0 +1,99 @@
+h3 {
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 34px;
+}
+.mega-menu .menu-links > li > a {
+
+	font-weight: 700;
+
+}
+.mx-mont-font {
+font-family: 'Montserrat', sans-serif;
+}
+.mx-geader-megamenu {
+	color: #3779c3 !important;
+	font-size: 16px !important;
+	font-family: "Montserrat" !important;
+	text-transform: none !important;
+}
+.mx-ul-menu ul>li a:before {
+	content: "\f0d7";
+	font-family: 'FontAwesome';
+	color: #3779c3;
+	font-size: 14px;
+	padding: 20px 10px;
+}
+.breadcrumb {
+	font-size: 14px;}
+
+.mega-menu .menu-logo img {
+	height: 65px;
+}
+.mega-menu .menu-logo {
+	padding: 25px 0px;
+}
+.mx-active a{
+	color: #007200 !important;
+
+}
+
+
+.mx-h4  {
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.btn {
+	border-radius: 0px;
+	color: white;
+}
+.mx-single-info a {
+	padding: 10px 0px;
+}
+.mx-info-project {
+	color: #0b0b0b;
+}
+.mx-go-2-site a{
+	padding: 10px 10px;
+
+}
+.button.border {
+	background: #524e4e29;
+	border: 2px solid #e0e0e0;
+	color: #2d2929;
+}
+.mx-ul-check ul>li {
+	list-style: none;
+}
+.mx-ul-check ul>li:before {
+	content: "\f00c";
+	font-family: 'FontAwesome';
+	color: #07c700;
+	font-size: 14px;
+	padding: 20px 10px;
+}
+#header.default {
+
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+.mx-bg {
+	background-image: url(/assets/images/concrete-wall-3.png); /* Путь к фоновому изображению */
+
+}
+
+
+
+@media (max-width: 1159px) {
+	.mega-menu .menu-logo img {
+		height: 55px;
+	}
+}
+@media (max-width: 479px) {
+	.intro-title .intro-content .intro-name {
+		padding: 50px 0px 50px 0px;
+	}
+}
