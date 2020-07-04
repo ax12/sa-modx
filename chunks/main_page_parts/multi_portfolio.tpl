@@ -1,10 +1,10 @@
-<section class="demo-sec light-blue-bg page-section-ptb plr-6 sec-relative" id="scroll-buttons">
-    <marquee class="animated-text o-hidden white">Home pages</marquee>
+<section class="demo-sec light-blue-bg page-section-ptb plr-6 sec-relative mx-bg-portfolio" id="scroll-buttons">
+    <marquee class="animated-text o-hidden white">наши работы</marquee>
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
                 <div class="section-title text-center">
-                    <span>stunning Home Demos </span>
+                    <span>то что мы уже сделали</span>
                     <h2 class="mb-3">Портфолио</h2>
                 </div>
             </div>

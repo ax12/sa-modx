@@ -1,5 +1,6 @@
 <!--=================================HIGH QUALITY DOCUMENTATION -->
 {include 'file:chunks/main_page_parts/first_row.tpl'}
+{include 'file:chunks/main_page_parts/prices_row.tpl'}
 <!--=================================HIGH QUALITY DOCUMENTATION -->
 
 <!--=================================multi-page -->
