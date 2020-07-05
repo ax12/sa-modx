@@ -94,40 +94,69 @@ h3 {
     font-size: 14px;
     padding: 20px 10px;
 }
+.mx-ul-plus ul > li:before {
+    content: "\f055";
+    font-family: 'FontAwesome';
+    color: #2894d4;
+    font-size: 14px;
+    padding: 20px 10px;
+}
+.mx-ul-rub:after {
+    content: "\f158";
+    font-family: 'FontAwesome';
+
+    font-size: 32px;
+}
+/*.plr-6 {*/
+/*    padding-left: 0px !important;*/
+/*padding-right: 0px !important;*/
+/*}*/
+.mx-ul-rub {
+font-size: 55px !important;
+font-weight: 700 !important;
+}
+.two_collumn li {
+    display:block;
+    width:49%;
+    float:left;
+}
+.mx-adaptiv-font {
+font-size: 2vh;
+}
 
 #header.default {
 
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
 }
 
 .mx-bg {
-    background-image: url(/assets/images/concrete-wall-3.png);
-	background-attachment: fixed;
+background-image: url(/assets/images/concrete-wall-3.png);
+background-attachment: fixed;
 }
 
 .mx-bg-price {
 
-    background-color: #f7f7f7;
+background-color: #f7f7f7;
 }
 
 .mx-bg-portfolio {
-    background-image: url(/assets/images/beige-paper.png);
-	background-attachment: fixed;
+background-image: url(/assets/images/beige-paper.png);
+background-attachment: fixed;
 }
 
 .mx-prices {
-    color: #35ac00 !important;
-    font-size: 40px;
-    font-weight: 700;
-	font-family: 'Rubik', sans-serif;
+color: #35ac00 !important;
+font-size: 40px;
+font-weight: 700;
+font-family: 'Rubik', sans-serif;
 }
 .mx-header-prc {
-	font-size: 22px;
+font-size: 22px;
 }
 
 
 /***************************
-	       TAB
+       TAB
 ***************************/
 .nav.nav-tabs {
     border: none;

@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title text-center">
-                    <span class="mx-sub-header">цены на сайты </span>
+                    <span class="mx-sub-header">за сколько можно сделать сайт?</span>
                     <h2 class="mb-3">СТОИМОСТЬ РАЗРАБОТКИ</h2>
                 </div>
             </div>
@@ -22,7 +22,12 @@
                     'tpl' => '@FILE chunks/main_page_parts/tpl/tpl_price_item_mp.tpl',
                     'parents' => 22,
                     'depth' => 1,
-                    'includeTVs' => 'header_on_mp, price, subheader_on_mp, options_of_site, type_site_for_tabs',
+                    'includeTVs' => '   header_on_mp,
+                                        price,
+                                        subheader_on_mp,
+                                        options_of_site,
+                                        type_site_for_tabs,
+                                        description_on_mp',
                     'processTVs' => 1
 
                     ])}
