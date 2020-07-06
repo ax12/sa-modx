@@ -5,6 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
+                    {if $_modx->getPlaceholder('+is_krasnodar')}
                     <div class="topbar-left  text-center text-md-left">
                         <ul class="list-inline">
                             <li> <i class="ti-location-pin"> </i>
@@ -17,6 +18,7 @@
                         </ul>
 
                     </div>
+                    {/if}
                 </div>
                 <div class="col-md-6">
                     <div class="topbar-right text-center text-md-right">

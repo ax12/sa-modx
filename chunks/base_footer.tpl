@@ -94,7 +94,7 @@
                     </div>
                 </div>
             </div>
-            {if $_modx->getPlaceholder('+option_telephone_krnd')}
+            {if $_modx->getPlaceholder('+is_krasnodar')}
             <div class="col-md-4 bottom-m3">
                 <div class="contact-box">
                     <div class="contact-icon">

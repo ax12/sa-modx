@@ -1,4 +1,4 @@
-<section class="white-bg page-section-ptb pb-6 plr-6 sec-relative core-fearture mx-bg mx-bg-price">
+<section class="white-bg page-section-ptb pb-6 plr-0 sec-relative core-fearture mx-bg mx-bg-price">
     <marquee class="animated-text o-hidden dark">услуги в web пространстве</marquee>
     <div class="container-fluid">
         <div class="row">

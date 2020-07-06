@@ -5,7 +5,7 @@
             <div class="col-md-12">
                 <div class="section-title text-center">
                     <span class="mx-sub-header">за сколько можно сделать сайт?</span>
-                    <h2 class="mb-3">СТОИМОСТЬ РАЗРАБОТКИ</h2>
+                    <h2 class="mb-3">СТОИМОСТЬ РАЗРАБОТКИ САЙТА</h2>
                 </div>
             </div>
         </div>

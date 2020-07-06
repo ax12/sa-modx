@@ -1,4 +1,4 @@
-<section class="demo-sec light-blue-bg page-section-ptb plr-6 sec-relative mx-bg-portfolio" id="scroll-buttons">
+<section class="demo-sec light-blue-bg page-section-ptb plr-0 sec-relative mx-bg-portfolio" id="scroll-buttons">
     <marquee class="animated-text o-hidden white">наши работы</marquee>
     <div class="container-fluid">
         <div class="row">

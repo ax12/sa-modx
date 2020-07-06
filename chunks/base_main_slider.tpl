@@ -7,12 +7,14 @@
 
             <i class="ti-location-pin"> </i><span> Екатеринбург</span>
             <i class="ti-headphone-alt"> </i><span>{$_modx->getPlaceholder('+option_telephone_ekb')}</span><br>
-            {if $_modx->getPlaceholder('+option_telephone_krnd')}
+            {if $_modx->getPlaceholder('+is_krasnodar')}
             <i class="ti-location-pin"> </i><span> Краснодар</span>
-            <i class="ti-headphone-alt"> </i><span>{$_modx->getPlaceholder('+option_telephone_krnd')}</span><br></p>
+            <i class="ti-headphone-alt"> </i><span>{$_modx->getPlaceholder('+option_telephone_krnd')}</span><br>
             {/if}
+        </p>
 
-        <a target="_blank" class="button white purchase-btn" href="https://themeforest.net/item/seohub-seo-marketing-social-media-multipurpose-html5-template/20234006/?ref=Potenzaglobalsolutions"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Purchase now</a>
+
+        <a target="_blank" class="button white purchase-btn mt-3" href="https://themeforest.net/item/seohub-seo-marketing-social-media-multipurpose-html5-template/20234006/?ref=Potenzaglobalsolutions"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Purchase now</a>
         <a class="ml-3" href="https://getbootstrap.com/"><img class="img-fluid" src="assets/images/bootstrap-img.png" alt=""></a>
 
     </div>

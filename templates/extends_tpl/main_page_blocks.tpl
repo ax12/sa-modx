@@ -2,7 +2,7 @@
 {include 'file:chunks/main_page_parts/first_row.tpl'}
 {include 'file:chunks/main_page_parts/prices_row.tpl'}
 <!--=================================HIGH QUALITY DOCUMENTATION -->
-
+{include 'file:chunks/main_page_parts/stage_of_work.tpl'}
 <!--=================================multi-page -->
 {include 'file:chunks/main_page_parts/multi_portfolio.tpl'}
 <!--=================================multi-page -->
