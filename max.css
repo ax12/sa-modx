@@ -25,6 +25,23 @@ h3 {
     font-family: "Montserrat" !important;
     text-transform: none !important;
 }
+.mx-service-header {
+    color: #3779c3 !important;
+    font-size: 26px !important;
+    font-family: "Montserrat" !important;
+    text-transform: none !important;
+}
+
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+}
 
 .mx-ul-menu ul > li a:before {
     content: "\f0d7";
@@ -175,28 +192,25 @@ font-size: 22px;
 
 .mx-processing-row {
 
-    background-image: url(../images/bg-blue-water.jpg);
+    background-image: url(/assets/images/vebdev.jpeg);
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;
     background-attachment: fixed;
 }
-.mx-processing-row-legkovoy {
 
-    background-image: url(../images/bg-blue-water-legkovoy.jpg);
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 400px;
-    background-attachment: fixed;
-}
 .mx-brigin-blue {
     box-shadow: 0 0 0 999px rgba(0, 27, 82, 0.39) inset;
 }
 .mx-bg-extra-blue {
-    background-color: #1b38bb;
-    box-shadow: 0 0 11px 2px #ffffffa8;
+    background-color: #0000002b;
+    box-shadow: 0 0 11px 2px #b3b3b347;
+}
+.mx-bg-service-item {
+    background-color: #00000008;
+    box-shadow: 0 0 11px 2px #b3b3b347;
+    color: #0b0b0b;
 }
 .mx-font-count {
     font-size: 100px;
@@ -206,10 +220,15 @@ font-size: 22px;
     text-align: right;
     line-height: 42px;
 }
+
 .mx-green-header {
-    color: #00FF47;
+    color: #000000;
     font-size: 16px;
+    font-weight: 700;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
 }
+
 .mx-des-processing {
     font-size: 14px;
 }
