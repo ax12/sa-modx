@@ -15,13 +15,7 @@
 
                         <div class="feature-box-info">
                             <p class="mx-adaptiv-font mt-md-3">{$_pls['tv.description_in_service']}</p>
-                            {$_modx->runSnippet('!pdoResources', [
-                            'tpl' => '@INLINE <ul class="hr"><li>{$pagetitle}</li></ul>>',
-                            'parents' => $_modx->resource.id,
-                            'depth' => 0,
 
-
-                            ])}
                         </div>
                     </div>
                 </div>

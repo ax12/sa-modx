@@ -32,15 +32,21 @@ h3 {
     text-transform: none !important;
 }
 
+
+
 ul.hr {
     margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
+    padding: px; /* Значение полей */
 }
 ul.hr li {
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
-    border: 1px solid #000; /* Рамка вокруг текста */
-    padding: 3px; /* Поля вокруг текста */
+    display: inline-block;
+    margin-right: 5px;
+    /* border: 1px solid #e8e8e8; */
+    padding: 2px 7px;
+    border-radius: 3px;
+    color: #3779c3;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 3px 1px #d8d8d8;
 }
 
 .mx-ul-menu ul > li a:before {
