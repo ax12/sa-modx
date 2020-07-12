@@ -12,8 +12,6 @@
                 </div>
             </div>
             <div class="feature-box-info">
-
-
                 <p class="mx-adaptiv-font mt-md-3">{$_pls['tv.description_in_service']}</p>
             </div>
         </div>
