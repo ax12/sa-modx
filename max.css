@@ -1,4 +1,5 @@
 h3 {
+    
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -10,6 +11,16 @@ h3 {
     font-weight: 700;
 
 }
+.mx-header-type-site {
+        font-size: 18px;
+    font-weight: 800;
+}
+.mx-type-site-parts-name {
+    font-size: 20px;
+  
+    color: 000;
+    color: #343a40;
+}
 
 .mx-font-12 {
     font-size: 12px;
@@ -18,35 +29,17 @@ h3 {
 .mx-mont-font {
     font-family: 'Montserrat', sans-serif;
 }
-
+.mx-prices-in-type-site {
+  color: #17a2b8 !important;
+    font-size: 27px;
+   font-weight: 800;
+    font-family: 'Rubik', sans-serif;
+}
 .mx-geader-megamenu {
     color: #3779c3 !important;
     font-size: 16px !important;
     font-family: "Montserrat" !important;
     text-transform: none !important;
-}
-.mx-service-header {
-    color: #3779c3 !important;
-    font-size: 26px !important;
-    font-family: "Montserrat" !important;
-    text-transform: none !important;
-}
-
-
-
-ul.hr {
-    margin: 0; /* Обнуляем значение отступов */
-    padding: px; /* Значение полей */
-}
-ul.hr li {
-    display: inline-block;
-    margin-right: 5px;
-    /* border: 1px solid #e8e8e8; */
-    padding: 2px 7px;
-    border-radius: 3px;
-    color: #3779c3;
-    background-color: #f1f1f1;
-    box-shadow: 0 0 3px 1px #d8d8d8;
 }
 
 .mx-ul-menu ul > li a:before {
@@ -212,11 +205,6 @@ font-size: 22px;
 .mx-bg-extra-blue {
     background-color: #0000002b;
     box-shadow: 0 0 11px 2px #b3b3b347;
-}
-.mx-bg-service-item {
-    background-color: #00000008;
-    box-shadow: 0 0 11px 2px #b3b3b347;
-    color: #0b0b0b;
 }
 .mx-font-count {
     font-size: 100px;
@@ -432,7 +420,9 @@ Pricing 01
 .pricing.pricing-01.active .pricing-title:before {
     background: #2046f2;
 }
-
+.mx-lsn ul li{
+    list-style-type: none;
+}
 .pricing.pricing-01.active .pricing-title .section-title h5, .pricing.pricing-01.active .pricing-title .section-title span {
     color: #fff;
 }
@@ -440,7 +430,46 @@ Pricing 01
 .pricing.pricing-01.active .pricing-prize h2 {
     color: #2046f2;
 }
+.mx-small-button {
+    display: inline-block;
+    padding: 3px 22px;
+    font-size: 12px;
+    
+    
+}
+.mx-button {
+        background: #2c3560;
+    padding: 10px 30px;
+    color: #ffffff;
+    /* border: 2px solid #00ca03; */
+    text-transform: uppercase;
+    font-weight: 400;
+    display: inline-block;
+    border-radius: 00px;
+    text-align: center;
+}
+.mega-menu {
+    min-height: 72px !important;
 
+}
+
+.sidebar-widgets-wrap .sidebar-widget {
+    margin-bottom: 40px;
+    background-color: #f1f1f1;
+    padding: 13px 23px;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 1px #e2e2e2;
+}
+.sidebar-widgets-wrap .sidebar-widget h5 {
+    margin-bottom: 20px;
+    border-bottom: solid 1px #e4e4e4;
+}
+
+.sidebar-widgets-wrap .widget-link ul li a {
+    display: block;
+    padding: 0px 0px;
+    color: #008592;
+}
 @media (max-width: 1159px) {
     .mega-menu .menu-logo img {
         height: 55px;

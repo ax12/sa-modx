@@ -18,7 +18,6 @@
 <script type="text/javascript" src="assets/js/jquery.hover3d.min.js"></script>
 
 <!-- custom -->
-<!--<script type="text/javascript" src="assets/js/custom.js"></script>-->
 <script type="text/javascript" src="assets/js/custom-all.js"></script>
 <!-- REVOLUTION JS FILES -->
 <script type="text/javascript" src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>

@@ -32,4 +32,6 @@
 
 <!-- Responsive style -->
 <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
 <link rel="stylesheet" type="text/css" href="core/elements/max.css" />

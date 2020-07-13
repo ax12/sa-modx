@@ -14,7 +14,6 @@
 <!-- bootstrap -->
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap" rel="stylesheet">
 <!-- mega menu -->
 <link rel="stylesheet" type="text/css" href="assets/css/mega-menu/mega_menu.css" />
 
@@ -34,8 +33,10 @@
 <!--<link rel="stylesheet" type="text/css" href="assets/css/style-header.css" />-->
 {if $_modx->resource.id == 1}
 <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-<!--<link rel="stylesheet" type="text/css" href="assets/css/style-all.css" />-->
 {else}
  <link rel="stylesheet" type="text/css" href="assets/css/style-inside.css" />
+
 {/if}
-<link rel="stylesheet" type="text/css" href="core/elements/max.css" />
+
+
+<link rel="stylesheet" type="text/css" href="core/elements/max.css" 1/>
