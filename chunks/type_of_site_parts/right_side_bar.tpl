@@ -1,7 +1,7 @@
 <div class="sidebar-widgets-wrap">
               
                 <div class="sidebar-widget">
-                <h5>а так же:</h5>
+                <h5>другие сайты:</h5>
                     <div class="widget-link">
                         {$_modx->runSnippet('pdoMenu', [
                         'tpl'=>'@INLINE <li> <a href="{$link}"> <i class="fa fa-angle-double-right"></i> {$menutitle} </a></li>',
@@ -26,7 +26,7 @@
                     
                       <div class="product-detail-quantity clearfix mb-3 mx-small-button">
                                <div class="product-detail add-to-cart">
-                                  <a class="mx-button mx-small-button  text-center" href="#">Портфолио</a>
+                                  <a class="mx-button mx-small-button  text-center" href="{5 | url}">Портфолио</a>
                               </div>
                     
                         </div>
