@@ -2,9 +2,17 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="single-image">
-                    <img class="img-fluid" src="{$_modx->resource.image}" alt="{$_modx->resource.pagetitle}">
+                <div class="single-image mb-5">
+                    <img class="img-fluid mx-img-shadow" src="{$_modx->resource.image | phpthumbon: 'w=600&q=99' }" alt="{$_modx->resource.pagetitle}">
                 </div>
+                {var $images = json_decode($_modx->resource.screens_of_site_pages, true)}
+                {foreach $images as $image}
+                <h3 class="text-center mb-3">{$image.header}</h3>
+                <div class="single-image mb-5">
+                    <img class="img-fluid mx-img-shadow" src="{$image.image | phpthumbon: 'w=600&q=99' }" alt="{$image.header}">
+                </div>
+                {/foreach}
+                
             </div>
             <div class="col-md-6">
                 <div class="single-detail mx-ul-check">

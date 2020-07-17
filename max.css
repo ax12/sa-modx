@@ -1,9 +1,30 @@
+@import "assets/fonts/gilroy/stylesheet.css";
 h3 {
     
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 34px;
+}
+.mx-gilroy{
+    font-family: 'Gilroy' !important;
+  
+}
+
+.clients-box {
+
+    box-shadow: 0 0 11px 0px #404040;
+}
+.mx-img-shadow {
+    box-shadow: 0 0 2px #b5b4b4;
+}
+.clients-info h6 {
+    font-size: 22px;
+    border-bottom: 1px solid #ffffff;
+    margin-right: 20px;
+}
+.mx-description-on-mp-ul ul{
+    padding-bottom:10px;
 }
 
 .mega-menu .menu-links > li > a {
@@ -16,10 +37,16 @@ h3 {
     font-weight: 800;
 }
 .mx-type-site-parts-name {
-    font-size: 20px;
+    font-size: 16px;
   
     color: 000;
     color: #343a40;
+}
+
+
+.mx-item-portfolio-in-type-site {
+
+    width: 100% !important;
 }
 
 .mx-font-12 {
@@ -30,9 +57,9 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 .mx-prices-in-type-site {
-  color: #17a2b8 !important;
-    font-size: 27px;
-   font-weight: 800;
+    color: #00a223 !important;
+    font-size: 28px;
+    font-weight: 800;
     font-family: 'Rubik', sans-serif;
 }
 .mx-geader-megamenu {
@@ -109,6 +136,19 @@ h3 {
     color: #07c700;
     font-size: 14px;
     padding: 20px 10px;
+}
+
+.mx-button-order-on-mp {
+    background: transparent;
+    border: 2px solid #2046f2;
+    color: #2046f2;
+    padding: 5px 26px;
+    margin-bottom: 5px;
+}
+
+.mx-ul-check ul {
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 .mx-ul-plus ul > li:before {
     content: "\f055";
@@ -455,7 +495,7 @@ Pricing 01
 
 .sidebar-widgets-wrap .sidebar-widget {
     margin-bottom: 40px;
-    background-color: #f1f1f1;
+    
     padding: 13px 23px;
     border-radius: 4px;
     box-shadow: 0 0 2px 1px #e2e2e2;
@@ -469,6 +509,12 @@ Pricing 01
     display: block;
     padding: 0px 0px;
     color: #008592;
+}
+.mx-bg-white {
+    background-color: #ffffff;
+}
+.mx-bg-gray {
+    background-color: #f1f1f1;
 }
 @media (max-width: 1159px) {
     .mega-menu .menu-logo img {

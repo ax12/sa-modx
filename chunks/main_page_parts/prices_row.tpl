@@ -15,6 +15,7 @@
                     <li role="presentation" class="mx-tabs-names"><a class="active" href="#landing" aria-controls="landing" role="tab" data-toggle="tab">Лэндинг</a></li>
                     <li role="presentation" class="mx-tabs-names"><a class="" href="#vizitka" aria-controls="vizitka" role="tab" data-toggle="tab">Сайт-Визитка</a></li>
                     <li role="presentation" class="mx-tabs-names"><a class="" href="#corporate" aria-controls="corporate" role="tab" data-toggle="tab">Корпоративный сайт</a></li>
+                    <li role="presentation" class="mx-tabs-names"><a class="" href="#catalog" aria-controls="catalog" role="tab" data-toggle="tab">Каталог</a></li>
                     <li role="presentation" class="mx-tabs-names"><a class="" href="#internetShop" aria-controls="internetShop" role="tab" data-toggle="tab">Интернет-Магазин</a></li>
                 </ul>
                 <div class="tab-content pt-3">

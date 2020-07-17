@@ -14,7 +14,7 @@
             'tpl' => '@FILE chunks/main_page_parts/tpl/tpl_service_item_on_mp.tpl',
             'parents' => 3,
             'depth' => 1,
-            'includeTVs' => 'image_on_mp, show_on_mp, description_in_service',
+            'includeTVs' => 'image_on_mp, show_on_mp, description_in_service, header_in_service',
             'processTVs' => 1,
             'limit' => '18',
             'sortby' => '{"menuindex":"ASC"}'

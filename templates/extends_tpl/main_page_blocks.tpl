@@ -12,9 +12,9 @@
 <!--=================================Our FEATURES -->
 
 <!--=================================Multi-Header -->
-{include 'file:chunks/main_page_parts/portfolio_row.tpl'}
+{* {include 'file:chunks/main_page_parts/portfolio_row.tpl'} *}
+<!--=================================Multi-Header -->
+{include 'file:chunks/main_page_parts/feedback_row.tpl'}
 <!--=================================Multi-Header -->
 
-<!--=================================Multi-Header -->
-{include 'file:chunks/main_page_parts/technologes_row.tpl'}
 <!--=================================Multi-Header -->

@@ -11,7 +11,7 @@
               
                 <div class="product-detail-des mb-2">
                      <p>{$_modx->resource.description_type_site}</p>
-                  <div class="pricing-list mx-description-sites mx-ul-plus text-left pl-5 mx-ottions mx-lsn">
+                  <div class="pricing-list mx-description-sites mx-ul-plus text-left mx-ottions mx-lsn">
                         <ul>
                             {$_pls["tv.options_of_site"]}
                             {$_modx->resource.options_of_site}
@@ -19,24 +19,24 @@
 
                     </div>
              </div>
-             <div class="clearfix mb-3">
-                  <span class="mx-type-site-parts-name">Стоимость: </span>
-                    <div class="product-detail-price"> <span class=" mx-prices-in-type-site"> {$_modx->resource.price} руб.</span></div>
-                 
-             </div>
-              <div class="product-detail-quantity clearfix mb-3 ">
-                   <div class="product-detail add-to-cart">
-                      <a class="button" href="#">Заказать</a>
-                  </div>
-                
-                </div>
+
              <div class="product-detail-meta">
-                 <span>SKU: 8465415 </span>
-                 <span>Category: <a href="#">SEO book</a>  </span>
-                 <span>Tags: <a href="#">Services,</a> <a href="#">social media,</a> <a href="#">marketing</a>  </span>
+                 <div class="clearfix mb-3">
+                     <span class="mx-type-site-parts-name">Стоимость: </span>
+                     <div class="product-detail-price my-2">
+                         <span class=" mx-prices-in-type-site"> {$_modx->resource.price} руб.</span>
+                     </div>
+
+                 </div>
+                 <div class="product-detail-quantity clearfix mb-3 ">
+                     <div class="product-detail add-to-cart">
+                         <a class="button" href="#">Заказать</a>
+                     </div>
+
+                 </div>
              </div>
              <div class="product-detail-social">
-                <span>Share:</span>
+                <span>Технологии:</span>
                  <ul class="list-style-none">
                      <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
                      <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
@@ -51,28 +51,20 @@
             <div class="tab">
              <ul class="nav nav-tabs simple" role="tablist">
                 <li role="presentation">
-                    <a class="active" href="#tab-01" aria-controls="tab-01" role="tab" data-toggle="tab"> Description</a>
+                    <a class="active" href="#tab-01" aria-controls="tab-01" role="tab" data-toggle="tab"> Описание</a>
                 </li>
                 <li role="presentation">
-                    <a href="#tab-02" aria-controls="tab-02" role="tab" data-toggle="tab"> Additional Information</a>
+                    <a href="#tab-02" aria-controls="tab-02" role="tab" data-toggle="tab"> Возможности сайта</a>
                 </li>
                 <li role="presentation">
-                    <a href="#tab-03" aria-controls="tab-03" role="tab" data-toggle="tab"> Reviews (2)</a>
+                    <a href="#tab-03" aria-controls="tab-03" role="tab" data-toggle="tab"> Советы</a>
                 </li>
             </ul>
             <!-- tab-content -->
-            <div class="tab-content">
-               <div role="tabpanel" class="tab-pane active" id="tab-01">
-                 <h6>consectetur adipisicing elit</h6>   
-                 <p class="mt-2">Temporibus possimus quasi beatae, consectetur adipisicing elit. Obcaecati unde molestias sunt officiis aliquid sapiente, numquam, porro perspiciatis neque voluptatem sint hic quam eveniet ad adipisci laudantium corporis ipsam ea!</p>
-                 
-                  <p class="mt-2">Consectetur adipisicing elit. Dicta, amet quia ad debitis fugiat voluptatem neque dolores tempora iste saepe cupiditate, molestiae iure voluptatibus est beatae? Culpa, illo a You will begin to realise why, consectetur adipisicing elit. Commodi, doloribus, earum modi consectetur molestias asperiores sequi ipsam neque error itaque veniam culpa eligendi similique ducimus nulla, blanditiis, perspiciatis atque saepe! veritatis.</p>
-
-                 
-                  <p class="mt-2">Adipisicing consectetur elit. Dicta, amet quia ad debitis fugiat voluptatem neque dolores tempora iste saepe cupiditate, molestiae iure voluptatibus est beatae? Culpa, illo a You will begin to realise why, consectetur adipisicing elit. Commodi, doloribus, earum modi consectetur molestias asperiores.</p>
-
-                  
-                  <p class="mt-2">Voluptatem adipisicing elit. Dicta, amet quia ad debitis fugiat neque dolores tempora iste saepe cupiditate, molestiae iure voluptatibus est beatae? Culpa, illo a You will begin to realise why, consectetur adipisicing elit. Commodi, You will begin to realise why, consectetur adipisicing elit. Laudantium nisi eaque maxime totam, iusto accusantium esse placeat rem at temporibus minus architecto ipsum eveniet. Delectus cum sunt, ea cumque quas! doloribus, earum modi consectetur molestias asperiores sequi ipsam neque error itaque veniam culpa eligendi similique ducimus nulla, blanditiis, perspiciatis atque saepe! veritatis. </p>
+            <div class="tab-content ">
+               <div role="tabpanel" class="tab-pane active mx-ul-check" id="tab-01">
+                 <h6>Подробное описание</h6>
+                 {$_modx->resource.content}
                </div>
                <div role="tabpanel" class="tab-pane" id="tab-02">
                  <table class="table table-bordered">

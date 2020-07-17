@@ -5,9 +5,9 @@
             <div class="col-md-7">
                 <div class="section-title text-left mt-6">
                     <h2 class="mb-3"> {$_modx->resource.longtitle}</h2>
-                    <p class="">
+                   
                         {$_modx->resource.content}
-                    </p>
+                    
                     <div class="row">
                         <div class="col-md-4">
                             <h5>ДИЗАЙН:</h5>

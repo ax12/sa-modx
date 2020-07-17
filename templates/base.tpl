@@ -19,9 +19,27 @@
 <!--================================= loading -->
 {* {include 'file:chunks/preloader.tpl'} *}
 
-{block 'content_page'}
+{var $status = $_modx->getPlaceholder('+develop_mode')}
+{if $status == false}
+        {if $_modx->resource.get_status == 1}   {* раздел открыт, доступен для всех *}
+            {block 'content_page'} {/block}
+        {elseif $_modx->user.id > 0}            {* проверка на авторизацию пользователя *}
+            {include 'file:chunks/alert__if_in_developing.tpl'}
+            {block 'content_page'}    {/block}
+        {else}                                  {* если раздел закрыт и пользователь не авторизован *}
+            {include 'file:chunks/in_developing.tpl'}
+        {/if}
+{elseif $_modx->user.id > 0}
+        {include 'file:chunks/alert__if_site_in_developing.tpl'}
+            {if $_modx->resource.get_status == 0}
+                {include 'file:chunks/alert__if_in_developing.tpl'}
+            {/if}
+        {block 'content_page'}    {/block}
+{else}
 
-{/block}
+{include 'file:chunks/site_in_developing.tpl'}
+{/if}
+
 
 
 <!--=================================Footer-->

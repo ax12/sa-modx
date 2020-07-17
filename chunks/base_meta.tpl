@@ -38,5 +38,5 @@
 
 {/if}
 
-
-<link rel="stylesheet" type="text/css" href="core/elements/max.css" 1/>
+<link rel="stylesheet" type="text/css" href="assets/css/flaticons/flaticon.css"/>
+<link rel="stylesheet" type="text/css" href="core/elements/max.css"/>

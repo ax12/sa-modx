@@ -27,7 +27,8 @@
                                 {$_modx->getPlaceholder('+option_city_ekb')}
                             </li>
                             <li> <i class="ti-headphone-alt"></i>
-                                {$_modx->getPlaceholder('+option_telephone_ekb')}
+                                <a class="text-light" href="tel:{$_modx->getPlaceholder('+option_telephone_ekb')}">
+                                    {$_modx->getPlaceholder('+option_telephone_ekb')}</a>
 
                             </li>
                         </ul>
