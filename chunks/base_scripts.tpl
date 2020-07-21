@@ -37,6 +37,30 @@
 <!-- custom -->
 <!--  <script type="text/javascript" src="assets/js/custom.js"></script> -->
 
+
+<script type='text/javascript'>
+    (function () {
+        window['yandexChatWidgetCallback'] = function() {
+            try {
+                window.yandexChatWidget = new Ya.ChatWidget({
+                    guid: 'f4068706-2f8c-9a01-794e-ae903542f5a9',
+                    buttonText: 'Напишите нам, мы в сети!',
+                    title: 'Чат',
+                    theme: 'light',
+                    collapsedDesktop: 'never',
+                    collapsedTouch: 'always'
+                });
+            } catch(e) { }
+        };
+        var n = document.getElementsByTagName('script')[0],
+            s = document.createElement('script');
+        s.async = true;
+        s.charset = 'UTF-8';
+        s.src = 'https://yastatic.net/s3/chat/widget.js';
+        n.parentNode.insertBefore(s, n);
+    })();
+</script>
+
 {ignore}
 <script type="text/javascript">
     var tpj=jQuery;
@@ -112,3 +136,32 @@
 </script>
 
 {/ignore}
+
+
+{ignore}
+<script>
+    $(document).ready(function(){
+        $(document).on('af_complete', function(event, response) {
+            var form = response.form;
+            //console.log(response);
+            if(response.success){
+                var id = '#'+form.attr('id')+' .message';
+                var fields = '#'+form.attr('id')+' .fields';
+                $(id).html('<div class="alert alert-success" role="alert">[[++submittext]]</div>');
+                $(fields).hide();
+                // Заказать звонок
+                if(form.attr('id') == 'callbackform'){
+                    //yaCounterXXXXXXXX.reachGoal('callbackform');
+                }
+            }else{
+                $(id).html('<div class="alert alert-error" role="alert">[[++submittexterror]]</div>');
+            }
+        });
+        $(document).on('mse2_load', function(e, data) {
+            $('.eqh').matchHeight();
+        });
+    });
+</script>
+{/ignore}
+
+<script type="text/javascript" src="assets/js/isotope/isotope.pkgd.min.js"></script>

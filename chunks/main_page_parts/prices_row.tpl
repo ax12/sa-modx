@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title text-center">
-                    <span class="mx-sub-header">за сколько можно сделать сайт?</span>
+                    <span class="mx-sub-header">за сколько можно заказать сайт?</span>
                     <h2 class="mb-3">СТОИМОСТЬ РАЗРАБОТКИ САЙТА</h2>
                 </div>
             </div>
@@ -15,13 +15,13 @@
                     <li role="presentation" class="mx-tabs-names"><a class="active" href="#landing" aria-controls="landing" role="tab" data-toggle="tab">Лэндинг</a></li>
                     <li role="presentation" class="mx-tabs-names"><a class="" href="#vizitka" aria-controls="vizitka" role="tab" data-toggle="tab">Сайт-Визитка</a></li>
                     <li role="presentation" class="mx-tabs-names"><a class="" href="#corporate" aria-controls="corporate" role="tab" data-toggle="tab">Корпоративный сайт</a></li>
-                    <li role="presentation" class="mx-tabs-names"><a class="" href="#catalog" aria-controls="catalog" role="tab" data-toggle="tab">Каталог</a></li>
-                    <li role="presentation" class="mx-tabs-names"><a class="" href="#internetShop" aria-controls="internetShop" role="tab" data-toggle="tab">Интернет-Магазин</a></li>
+                    <li role="presentation" class="mx-tabs-names"><a class="" href="#catalog" aria-controls="catalog" role="tab" data-toggle="tab">Каталог товаров</a></li>
+                    <li role="presentation" class="mx-tabs-names"><a class="" href="#internetShop" aria-controls="internetShop" role="tab" data-toggle="tab">Интернет Магазин</a></li>
                 </ul>
                 <div class="tab-content pt-3">
                     {$_modx->runSnippet('!pdoResources', [
                     'tpl' => '@FILE chunks/main_page_parts/tpl/tpl_price_item_mp.tpl',
-                    'parents' => 22,
+                    'parents' =>45 ,
                     'depth' => 1,
                     'includeTVs' => '   header_on_mp,
                                         price,

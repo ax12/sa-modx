@@ -12,8 +12,15 @@
             <div class="col-md-3">
                 {include 'file:chunks/type_of_site_parts/right_side_bar.tpl'} {* правый сайдбар *}
             </div>
+
       
       </div>
+
+
+
+
+
     </div>
  </section>
 
+{include 'file:chunks/type_of_site_parts/paralax_row.tpl'}

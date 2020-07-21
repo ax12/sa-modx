@@ -2,11 +2,11 @@
 <div class="main-banner mx-bg">
     <div class="rocket"><img class="img-fluid" src="assets/images/rocket2.gif" alt=""></div>
     <div class="banner-text text-white">
-        <h1 class="title text-white">{$_modx->resource.header_title}</h1>
+        <h1 class="title text-white mx-mobile-header">{$_modx->resource.header_title}</h1>
         <p >{$_modx->resource.des_title}<br><br>
 
             <i class="ti-location-pin"> </i><span> Екатеринбург</span>
-            <i class="ti-headphone-alt"> </i><span><a class="text-light" href="tel:{$_modx->getPlaceholder('+option_telephone_ekb')}">{$_modx->getPlaceholder('+option_telephone_ekb')}</a></span><br>
+            <span class="text-nowrap"><i class="ti-headphone-alt"> </i><a class="text-light text-nowrap" href="tel:{$_modx->getPlaceholder('+option_telephone_ekb')}">{$_modx->getPlaceholder('+option_telephone_ekb')}</a></span><br>
             {if $_modx->getPlaceholder('+is_krasnodar')}
             <i class="ti-location-pin"> </i><span> Краснодар</span>
             <i class="ti-headphone-alt"> </i><span>{$_modx->getPlaceholder('+option_telephone_krnd')}</span><br>
@@ -14,8 +14,12 @@
         </p>
 
 
-        <a target="_blank" class="button white purchase-btn mt-3" href="https://themeforest.net/item/seohub-seo-marketing-social-media-multipurpose-html5-template/20234006/?ref=Potenzaglobalsolutions"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Purchase now</a>
-        <a class="ml-3" href="https://getbootstrap.com/"><img class="img-fluid" src="assets/images/bootstrap-img.png" alt=""></a>
+       
+          <button type="button" class="button mt-5 button purchase-btn mx-cursor-pointer" data-toggle="modal" data-target="#callback">
+                    Заказать сайт
+               </button>
+               
+       
 
     </div>
     <div id="rev_slider_12_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="seo-intro" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">

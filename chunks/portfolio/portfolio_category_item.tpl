@@ -6,7 +6,7 @@ case-studies  -->
             {$_modx->runSnippet('!pdoResources', [
             'parents' => $_modx->resource.id,
             'tpl' => '@FILE chunks/portfolio/single_item_portfolio/tpl_portfolio_item_in_category.tpl',
-
+            'sortby' => '{"menuindex":"ASC"}',
             'includeTVs' => 'image, is_yadro, cms',
             'processTVs' => 1,
 
@@ -16,20 +16,7 @@ case-studies  -->
 
 
         </div>
-        <div class="row mt-4">
-            <div class="col-sm-12">
-                <!-- ============================================ -->
-                <div class="pagination-nav text-center">
-                    <ul class="pagination">
-                        <li><a href="#">«</a></li>
-                        <li class="active"><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">»</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+
     </div>
 </section>
 <!--=================================

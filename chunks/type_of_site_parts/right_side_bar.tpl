@@ -6,7 +6,7 @@
                     <div class="widget-link ">
                         {$_modx->runSnippet('pdoMenu', [
                         'tpl'=>'@INLINE <li> <a href="{$link}"> <i class="fa fa-angle-double-right"></i> {$menutitle} </a></li>',
-                        'parents'=>'22', 
+                        'parents'=>45, 
                         'resources'=>-$_modx->resource.id
                         
                         ])}

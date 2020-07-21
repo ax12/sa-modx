@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="60d74f99-d969-4429-8beb-77454d1c4fa7" name="sa.sitearsenal.ru" url="http://sa.seo-wp.ru">
-        <fileTransfer host="sa.seo-wp.ru" port="21" rootFolder="/domains/seo-wp.ru/public_html/sa/core/elements">
+      <webServer id="60d74f99-d969-4429-8beb-77454d1c4fa7" name="sitearsenal.ru" url="http://sitearsenal.ru">
+        <fileTransfer host="sitearsenal.ru" port="21" rootFolder="/domains/sitearsenal.ru/public_html/core/elements">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

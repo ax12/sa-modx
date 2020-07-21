@@ -1,4 +1,4 @@
-<section class="high-documentation sec-relative pt-5 pb-5 mx-bg plr-6">
+<section class="high-documentation sec-relative pt-5 pb-5 mx-bg ">
     <marquee class="animated-text o-hidden dark">WEB Studio</marquee>
     <div class="container-fluid">
         <div class="row">

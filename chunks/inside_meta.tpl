@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <title>{$_modx->resource.seotitle ?: $_modx->resource.pagetitle }</title>
 <!-- Favicon -->
-<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="shortcut icon" href="favicon.ico" />
 
 <!-- bootstrap -->
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />

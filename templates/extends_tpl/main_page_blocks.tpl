@@ -10,7 +10,7 @@
 <!--=================================Our FEATURES -->
 {include 'file:chunks/main_page_parts/services_rows.tpl'}
 <!--=================================Our FEATURES -->
-
+{include 'file:chunks/type_of_site_parts/paralax_row.tpl'}
 <!--=================================Multi-Header -->
 {* {include 'file:chunks/main_page_parts/portfolio_row.tpl'} *}
 <!--=================================Multi-Header -->

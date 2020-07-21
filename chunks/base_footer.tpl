@@ -6,11 +6,7 @@
             </div>
             <div class="col-lg-7 col-md-8">
                 <div class="footer-nav text-right">
-                  {$_modx->runSnippet('pdoMenu', [
-                        'parents' => 0,
-                        'level' => 1,
-                        'resources' => -4
-                    ])}
+
                 </div>
             </div>
             <div class="col-md-2">
@@ -18,11 +14,9 @@
                     <ul>
 
                         <li>
-                            <a href="#"> <i class="fa fa-vimeo"></i> </a>
+                            <a href="{$_modx->getPlaceholder('+option_vk')}" target="_blank"> <span class="mx-ul-vk"></span> </a>
                         </li>
-                        <li>
-                            <a href="#"> <i class="fa fa-linkedin"></i> </a>
-                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -36,7 +30,7 @@
                 </div>
             </div>
             <div class="col-lg-7 col-md-12">
-                <h6 class="mb-2">Быстрые ссылки по основным разделам</h6>
+                <h6 class="mb-2">Основные разделы</h6>
                 <div class="usefull-link">
                     <div class="row">
                         <div class="col-md-4">
@@ -45,36 +39,37 @@
                                     <a href="{22 | url}"> <i class="fa fa-angle-right"></i> WEB Разработка </a>
                                 </li>
                                 <li>
-                                    <a href="{5 | url}"> <i class="fa fa-angle-right"></i> Примеры сайтов</a>
+                                    <a href="{24 | url}"> <i class="fa fa-angle-right"></i> Продвижение и реклама</a>
                                 </li>
                                 <li>
-                                    <a href="{11 | url}"> <i class="fa fa-angle-right"></i> Наш блог</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4">
-                            <ul>
-                                <li>
-                                    <a href="{23 | url}"> <i class="fa fa-angle-right"></i> Портфолио дизайнера </a>
-                                </li>
-                                <li>
-                                    <a href="{11 | url}"> <i class="fa fa-angle-right"></i> Content Management</a>
-                                </li>
-                                <li>
-                                    <a href="#"> <i class="fa fa-angle-right"></i> Blog Management</a>
+                                    <a href="{14 | url}"> <i class="fa fa-angle-right"></i> СЕО продвижение</a>
+
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-4">
                             <ul>
                                 <li>
-                                    <a href="#"> <i class="fa fa-angle-right"></i> Virtual Marketing </a>
+                                    <a href="{23 | url}"> <i class="fa fa-angle-right"></i> Разработка дизайна </a>
                                 </li>
                                 <li>
-                                    <a href="#"> <i class="fa fa-angle-right"></i> Email Marketing</a>
+                                    <a href="{5 | url}"> <i class="fa fa-angle-right"></i> Портфолио</a>
                                 </li>
                                 <li>
-                                    <a href="#"> <i class="fa fa-angle-right"></i> Keyword Analytics </a>
+                                    <a href="{2 | url}"> <i class="fa fa-angle-right"></i> О компании</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul>
+                                <li>
+                                    <a href="{11 | url}"> <i class="fa fa-angle-right"></i> Блог </a>
+                                </li>
+                                <li>
+                                    <a href="{33 | url}"> <i class="fa fa-angle-right"></i> Новости</a>
+                                </li>
+                                <li>
+                                    <a href="{6 | url}"> <i class="fa fa-angle-right"></i> Контакты </a>
                                 </li>
                             </ul>
                         </div>
@@ -125,7 +120,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <ul class="list-inline text-left">
-                        <li><a href="{25 | url}">Обработка персональных даных </a> &nbsp;&nbsp;&nbsp;|</li>
+                        <li><a href="{25 | url}">Обработка персональных данных </a> &nbsp;&nbsp;&nbsp;|</li>
 
 
                         <li><a href="#">Cookies </a></li>
@@ -133,7 +128,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="text-right">
-                        <p>Copyright © 2020 WEB Студия СайтАрсенал.</p>
+                        <p>Copyright © {$publishedon | date : "Y"} WEB Студия СайтАрсенал.</p>
                     </div>
                 </div>
             </div>
@@ -143,8 +138,9 @@
 
 <!--=================================
 back to top -->
-<div class="back-to-top">
+<div class="back-to-top d-none d-sm-block">
     <span><img src="assets/images/rocket.png" data-src="assets/images/rocket.png" data-hover="assets/images/rocket.gif" alt=""></span>
 </div>
 <!--=================================
 back to top -->
+{include 'file:chunks/modal_form/modal_window.tpl'}

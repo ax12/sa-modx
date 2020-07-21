@@ -36,7 +36,11 @@
                 </div>
 
                 {/foreach}
-
+<div class="col-12">
+    <button type="button" class="button mt-5 mx-cursor-pointer" data-toggle="modal" data-target="#callback">
+                    Заказать сайт
+               </button>
+</div>
 
             </div>
         </div>

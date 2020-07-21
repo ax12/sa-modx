@@ -43,7 +43,7 @@
                                                 <a class="mx-geader-megamenu" href="{22 | url}">Разработка сайтов</a>
 
                                                 {$_modx->runSnippet ('pdoMenu', [
-                                                'parents'=> 22,
+                                                'parents'=> 45,
                                                 'level'=>1,
                                                 'tplHere' => '@INLINE
                                 <li class="mx-active"><a href="{$link}">{$menutitle}</a></li>
@@ -93,30 +93,20 @@
                 <li><a href="javascript:void(0)">Портфолио <i class="fa fa-angle-down fa-indicator"></i></a>
                     <!-- drop down multilevel  -->
                     <ul class="drop-down-multilevel">
-                        <li><a href="{5 | url}">Сайты</a></li>
-                        <li><a href="{23 | url}">Фирменный стиль</a></li>
+                        <li><a href="{5 | url}">Готовые сайты</a></li>
+                        <li><a href="{43 | url}">Выполненный дизайн</a></li>
 
                     </ul>
                 </li>
-                <li><a href="javascript:void(0)">Case Studies <i class="fa fa-angle-down fa-indicator"></i></a>
-                    <!-- drop down multilevel  -->
-                    <ul class="drop-down-multilevel">
-                        <li><a href="case-studies-2-columns.html">case studies 2 columns</a></li>
-                        <li><a href="case-studies-3-columns.html">case studies 3 columns</a></li>
-                        <li><a href="case-studies-4-columns.html">case studies 4 columns</a></li>
-                        <li><a href="case-studies-filter.html">case studies filter</a></li>
-                        <li><a href="case-studies-full-screen.html">case studies full screen</a></li>
-                        <li><a href="case-studies-single.html">case studies single</a></li>
-                    </ul>
-                </li>
-                <li><a href="{11 | url}"> Блог <i class="fa fa-angle-down fa-indicator"></i> </a>
+
+                <li><a href="{11 | url}"> О нас <i class="fa fa-angle-down fa-indicator"></i> </a>
                     <!-- drop down multilevel  -->
                     <ul class="drop-down-multilevel">
                         <li><a href="{11 | url}">БЛОГ</a></li>
-                        <li><a href="shop-single.html">Shop Single</a></li>
+                        <li><a href="{33 | url}">НОВОСТИ</a></li>
                     </ul>
                 </li>
-                <li><a href="javascript:void(0)"> КОНТАКТЫ <i class="fa fa-angle-down fa-indicator"></i> </a>
+                <li><a href="{6 | url}"> КОНТАКТЫ <i class="fa fa-angle-down fa-indicator"></i> </a>
 
                 </li>
                 <li class="side-menu-main">

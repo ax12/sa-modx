@@ -1,4 +1,4 @@
-<section class="white-bg page-section-ptb pb-6 plr-6 sec-relative core-fearture mx-bg mx-bg-price">
+<section class="white-bg page-section-ptb pb-6 plr-1 sec-relative core-fearture mx-bg mx-bg-price">
     <marquee class="animated-text o-hidden dark">услуги в web пространстве</marquee>
     <div class="container-fluid">
         <div class="row">
@@ -9,10 +9,10 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
             {$_modx->runSnippet('!pdoResources', [
             'tpl' => '@FILE chunks/main_page_parts/tpl/tpl_service_item_on_mp.tpl',
-            'parents' => 3,
+            'parents' => '3,45',
             'depth' => 1,
             'includeTVs' => 'image_on_mp, show_on_mp, description_in_service, header_in_service',
             'processTVs' => 1,

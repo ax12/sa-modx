@@ -16,7 +16,7 @@
 </head>
 
 <body>
-<!--================================= loading -->
+
 {* {include 'file:chunks/preloader.tpl'} *}
 
 {var $status = $_modx->getPlaceholder('+develop_mode')}

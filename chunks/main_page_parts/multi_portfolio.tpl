@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="section-title text-center">
-                    <span>то что мы уже сделали</span>
+                    <span>наши работы </span>
                     <h2 class="mb-3">Портфолио</h2>
                 </div>
             </div>
@@ -16,9 +16,10 @@
                 'tpl' => '@FILE chunks/main_page_parts/tpl/tpl_portfolio_item_mp.tpl',
                 'parents' => 5,
                 'limit' => '18',
-                'includeTVs' => 'image, show_on_mp',
+                'includeTVs' => 'image, show_on_mp,header_in_multiportfolio_on_mp',
                 'processTVs' => 1,
                 'tvFilters' => 'show_on_mp == true',
+                'sortby' => '{"menuindex":"ASC"}'
 
 
                 ])}

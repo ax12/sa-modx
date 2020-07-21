@@ -6,14 +6,43 @@ h3 {
     font-weight: 400;
     line-height: 34px;
 }
+.mx-img-portfolio-design {
+    border: 1px solid gainsboro;
+}
+.mx-top-calback {
+     border: solid 1px #ffffff36;
+    padding: 5px 14px;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+.mx-ul-vk:before {
+    content: "\f189";
+    list-style: none;
+    font-family: 'FontAwesome';
+    font-size: 22px;
+    margin-right: 10px;
+    color: #2046f2;
+}
+.mx-cursor-pointer {
+    cursor: pointer;
+}
+.studies-entry .entry-image {
+    border: 1px solid #e0e0e0;
+    border-bottom: none;
+}
 .mx-gilroy{
     font-family: 'Gilroy' !important;
   
 }
-
+.mx-prices-in-category {
+    font-size: 22px;
+}
 .clients-box {
 
     box-shadow: 0 0 11px 0px #404040;
+}
+.clients-box {
+    cursor: default;
 }
 .mx-img-shadow {
     box-shadow: 0 0 2px #b5b4b4;
@@ -516,14 +545,73 @@ Pricing 01
 .mx-bg-gray {
     background-color: #f1f1f1;
 }
+.mx-h5-about {
+    font-size: 12px;
+    line-height: 24px;
+    min-height: 48px;
+
+}
+.tab h2 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.modal-dialog {
+
+    margin: 6.75rem auto;
+}
+
+.bg.fixed {
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: initial;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative;
+    z-index: 0;
+    background-attachment: fixed !important;
+}
+ul.list-style-right li {
+    list-style-type: none;
+    position: relative;
+    font-weight: bold;
+    color: #353535;
+    font-size: 16px;
+}
+ul.list-style-right li i {
+    color: #2046f2;
+    padding-right: 15px;
+}
+.hidden {
+    display: none !important;
+}
 @media (max-width: 1159px) {
     .mega-menu .menu-logo img {
         height: 55px;
     }
 }
 
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 500px;
+        margin: 5.75rem auto;
+    }
+}
 @media (max-width: 479px) {
     .intro-title .intro-content .intro-name {
         padding: 50px 0px 50px 0px;
+    }
+    .mx-mobile-header {
+        font-size: 30px;
+    }
+    .nav.nav-tabs li a {
+        border: none;
+        line-height: normal;
+        margin-right: 6px;
+        border-radius: 11px;
+        padding: 2px 15px;
+        background: #f6f7f8;
+        color: #353535;
+        line-height: 20px;
     }
 }
