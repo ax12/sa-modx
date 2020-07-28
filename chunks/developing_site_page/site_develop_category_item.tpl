@@ -1,11 +1,16 @@
-<section class="page-section-pt mx-gilroy">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title text-center">
-                        <span>индивидуальный подход к каждому проекту</span>
-                        <h2 class="text-center">{$_modx->resource.longtitle}</h2>
-                    </div>
+<section class="page-section-pt ">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="section-title text-center">
+                                            <span>индивидуальный подход к каждому проекту</span>
+                                            <h2 class="text-center">{$_modx->runSnippet('utp',['element'=>'title'])}</h2>
+                                            <div class="product-detail-des my-2 mx-fs-18">
+                                                <p>{$_modx->runSnippet('utp',['element'=>'description'])}</p>
+                                            </div>
+
+
+                                        </div>
                 </div>
             </div>
         </div>
@@ -33,6 +38,25 @@
                  'processTVs' => 1,
 
                 ])}
+                <div class="mt-3 col-12 product-detail-des my-2 mx-fs-18 mx-reach-text-h2-h3 text-center">
+                    {$_modx->runSnippet('utp',['element'=>'seo_text'])}
+                </div>
             </div>
         </div>
     </section>
+<section class="page-section-pt ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-2 text-center">
+{set $utp_urls = json_decode($_modx->resource.utp, true)}
+
+{foreach $utp_urls as $utp_url}
+                {if $utp_url.ancor}
+<a class="button border" href="{22 | url ~'?utp='~ $utp_url.url}">{$utp_url.ancor}</a>
+                {/if}
+{/foreach}
+{set $utp_urls = json_decode($_modx->resource.utp, true)}
+            </div>
+            </div>
+            </div>
+

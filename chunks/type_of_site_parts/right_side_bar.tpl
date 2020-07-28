@@ -7,7 +7,8 @@
                         {$_modx->runSnippet('pdoMenu', [
                         'tpl'=>'@INLINE <li> <a href="{$link}"> <i class="fa fa-angle-double-right"></i> {$menutitle} </a></li>',
                         'parents'=>45, 
-                        'resources'=>-$_modx->resource.id
+                        'tplHere'=>'@INLINE <li class="mx-current-li"> <i class="fa fa-angle-double-right"></i> {$menutitle} </li>',
+
                         
                         ])}
                     </div>
@@ -23,8 +24,9 @@
                         'parents' => 5,
                         'limit' => '5',
                        'processTVs' => 1,
-                       'includeTVs' => 'image, adaptive_img, what_type_site_in_services',
-                        'tvFilters' =>  'what_type_site_in_services==landing'
+                       'includeTVs' => 'image, adaptive_img, what_type_site_in_services, show_in_develop_type_site',
+                        'tvFilters' =>  'what_type_site_in_services==landing, show_in_develop_type_site == true'
+                        'sortby' => '{"menuindex":"ASC"}'
 
                     ])}
                    {elseif $get_part_type=='vizitka'}
@@ -34,8 +36,9 @@
                    'parents' => 5,
                    'limit' => '5',
                    'processTVs' => 1,
-                   'includeTVs' => 'image, adaptive_img, what_type_site_in_services',
-                   'tvFilters' =>  'what_type_site_in_services==vizitka'
+                   'includeTVs' => 'image, adaptive_img, what_type_site_in_services, show_in_develop_type_site',
+                   'tvFilters' =>  'what_type_site_in_services==vizitka, show_in_develop_type_site == true'
+                   'sortby' => '{"menuindex":"ASC"}'
 
                    ])}
 
@@ -46,8 +49,9 @@
                    'parents' => 5,
                    'limit' => '5',
                    'processTVs' => 1,
-                   'includeTVs' => 'image, adaptive_img, what_type_site_in_services',
-                   'tvFilters' =>  'what_type_site_in_services==corporativ'
+                   'includeTVs' => 'image, adaptive_img, what_type_site_in_services, show_in_develop_type_site',
+                   'tvFilters' =>  'what_type_site_in_services==corporativ, show_in_develop_type_site == true'
+                   'sortby' => '{"menuindex":"ASC"}'
 
                    ])}
 
@@ -58,8 +62,9 @@
                    'parents' => 5,
                    'limit' => '5',
                    'processTVs' => 1,
-                   'includeTVs' => 'image, adaptive_img, what_type_site_in_services',
-                   'tvFilters' =>  'what_type_site_in_services==catalog'
+                   'includeTVs' => 'image, adaptive_img, what_type_site_in_services, show_in_develop_type_site',
+                   'tvFilters' =>  'what_type_site_in_services==catalog, show_in_develop_type_site == true'
+                   'sortby' => '{"menuindex":"ASC"}'
 
                    ])}
 
@@ -70,9 +75,9 @@
                    'parents' => 5,
                    'limit' => '5',
                    'processTVs' => 1,
-                   'includeTVs' => 'image, adaptive_img, what_type_site_in_services',
-                   'tvFilters' =>  'what_type_site_in_services==internet-magazin'
-
+                   'includeTVs' => 'image, adaptive_img, what_type_site_in_services, show_in_develop_type_site',
+                   'tvFilters' =>  'what_type_site_in_services==internet-magazin, show_in_develop_type_site == true'
+                   'sortby' => '{"menuindex":"ASC"}'
                    ])}
 
                    {/if}

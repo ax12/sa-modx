@@ -2,10 +2,18 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="keywords" content="{$_modx->resource.seokeywords}" />
+{if $_modx->runSnippet('utp',['element'=>'seo_description'])}
+<meta name="description" content="{$_modx->runSnippet('utp',['element'=>'seo_description'])}" />
+{else}
 <meta name="description" content="{$_modx->resource.seodescription ?: $_modx->resource.description}" />
+{/if}
 <meta name="author" content="potenzaglobalsolutions.com" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>{$_modx->resource.seotitle ?: $_modx->resource.pagetitle }</title>
+{if $_modx->runSnippet('utp',['element'=>'seo_title'])}
+<title>{$_modx->runSnippet('utp',['element'=>'seo_title'])}</title>
+{else}
+<title>{$_modx->resource.seotitle?: $_modx->resource.pagetitle}</title>
+{/if}
 <!-- Favicon -->
 <link rel="shortcut icon" href="favicon.ico" />
 

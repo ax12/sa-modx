@@ -34,9 +34,15 @@
                                 {$_modx->getPlaceholder('+option_telephone_ekb')}
                             </a>
                         </h6>
+                        <h6>
+                            <a href="tel:{$_modx->getPlaceholder('+option_telephone_2_ekb')}">
+                                {$_modx->getPlaceholder('+option_telephone_2_ekb')}
+                            </a>
+                        </h6>
                         <span>ПН-СБ 9:00am-19:00pm</span>
                     </div>
                 </div>
+
             </div>
             <div class="contact-box mb-2">
                 <div class="contact-icon">

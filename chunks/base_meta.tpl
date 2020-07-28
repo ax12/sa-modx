@@ -7,7 +7,11 @@
 {/if}
 <meta name="author" content="sitearsenal.ru" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+{if $_modx->runSnippet('utp',['element'=>'description'])}
+<title>{$_modx->runSnippet('utp',['element'=>'description'])}</title>
+{else}
 <title>{$_modx->resource.seotitle?: $_modx->resource.pagetitle}</title>
+{/if}
 <!-- Favicon -->
 <link rel="shortcut icon" href="favicon.ico" />
 
@@ -36,6 +40,13 @@
 {else}
  <link rel="stylesheet" type="text/css" href="assets/css/style-inside.css" />
 
+{/if}
+{if $_modx->user.id > 0}
+<style>
+    .mx-admin-panel>section {
+        margin-top: 40px !important;
+    }
+</style>
 {/if}
 
 <link rel="stylesheet" type="text/css" href="assets/css/flaticons/flaticon.css"/>

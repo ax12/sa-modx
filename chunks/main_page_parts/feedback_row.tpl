@@ -1,4 +1,4 @@
-<section class="mx-bg-feedback page-section-ptb plr-1 sec-relative core-fearture">
+<section class="mx-bg-feedback page-section-ptb plr-1 sec-relative core-fearture mx-bg-portfolio">
     <marquee class="animated-text o-hidden white2">Our Core Features</marquee>
     <div class="container-fluid">
         <div class="row">
@@ -32,7 +32,7 @@
                                     <div class="testimonial-name mb-1">
                                         {if $feedback.image}
                                         <div class="testimonial-avtar mb-1">
-                                            <img class="img-fluid center-block mx-auto d-block rounded-circle" src="{$feedback.image | phpthumbon:'w=100&q=99'}" alt="">
+                                            <img class="img-fluid center-block mx-auto d-block rounded-circle" src="{$feedback.image | phpthumbon:'w=80&h=80&q=99'}" alt="">
                                         </div>
 
                                         {/if}

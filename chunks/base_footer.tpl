@@ -14,7 +14,7 @@
                     <ul>
 
                         <li>
-                            <a href="{$_modx->getPlaceholder('+option_vk')}" target="_blank"> <span class="mx-ul-vk"></span> </a>
+                            <a href="{$_modx->getPlaceholder('+option_vk')}" target="_blank"> <span class="mx-ul-vk"></span></a>
                         </li>
 
                     </ul>

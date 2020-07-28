@@ -40,35 +40,23 @@
                                     <i class="ti-headphone-alt text-blue"></i>
                                 </div>
                             </div>
-                            <div class="">
-                                <h6> 
-                                <a href="tel:{$_modx->getPlaceholder('+option_telephone_ekb')}">
-                                    {$_modx->getPlaceholder('+option_telephone_ekb')}
-                                </a>
+                            <div>
+                                <h6>
+                                    <a href="tel:{$_modx->getPlaceholder('+option_telephone_ekb')}">
+                                        {$_modx->getPlaceholder('+option_telephone_ekb')}
+                                    </a>
+                                </h6>
+                                <h6>
+                                    <a href="tel:{$_modx->getPlaceholder('+option_telephone_2_ekb')}">
+                                        {$_modx->getPlaceholder('+option_telephone_2_ekb')}
+                                    </a>
                                 </h6>
                                 <span class="mb-0">Пн-Пт 10:00-18:30</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12 mb-5 sm-mb-1">
-                        <div class="d-flex">
-                            <div class="contact-box">
 
-                                <div class="contact-icon">
-                                    <i class="ti-email text-blue"></i>
-                                </div>
-                            </div>
-                            <div class="">
-                                <h6>
-                                    <a href="mailto:{$_modx->getPlaceholder('+option_email')}">{$_modx->getPlaceholder('+option_email')}</a>
-                                </h6>
-                                <span class="mb-0">24 X 7 техподдержка</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
             </div>
 

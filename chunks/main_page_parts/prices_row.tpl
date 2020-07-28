@@ -5,7 +5,7 @@
             <div class="col-md-12">
                 <div class="section-title text-center">
                     <span class="mx-sub-header">за сколько можно заказать сайт?</span>
-                    <h2 class="mb-3">СТОИМОСТЬ РАЗРАБОТКИ САЙТА</h2>
+                    <h2 class="mb-3" id="stoimost-saytov">СТОИМОСТЬ РАЗРАБОТКИ САЙТА</h2>
                 </div>
             </div>
         </div>
@@ -25,6 +25,7 @@
                     'depth' => 1,
                     'includeTVs' => '   header_on_mp,
                                         price,
+                                        single_icon_in_category,
                                         subheader_on_mp,
                                         options_of_site,
                                         type_site_for_tabs,

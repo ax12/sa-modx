@@ -4,7 +4,7 @@
             <div class="feature-box-img">
                 <div class="row">
                     <div class="col-3 mr-md-3">
-                        <img class="lazy img-fluid" src="{$_pls["tv.image_on_mp"] |  phpthumbon:'h=90&q=99'}" alt="{$pagetitle | htmlent}">
+                        <img class="lazy img-fluid" src="{$_pls["tv.single_icon_in_category"] |  phpthumbon:'h=90&q=99'}" alt="{$pagetitle | htmlent}">
                     </div>
                     <div class="col-8 ">
                         <h5 class="mb-2 pt-2 mx-adaptiv-font">{$_pls['tv.header_in_service']}</h5>
@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div class="feature-box-info">
-                <p class="mx-adaptiv-font mt-md-3">{$_pls['tv.description_in_service']}</p>
+                <p class="mx-adaptiv-font mt-md-3 mx-mont-font">{$_pls['tv.description_in_service']}</p>
             </div>
         </div>
     </a>

@@ -30,10 +30,7 @@ h3 {
     border: 1px solid #e0e0e0;
     border-bottom: none;
 }
-.mx-gilroy{
-    font-family: 'Gilroy' !important;
-  
-}
+
 .mx-prices-in-category {
     font-size: 22px;
 }
@@ -62,8 +59,17 @@ h3 {
 
 }
 .mx-header-type-site {
-        font-size: 18px;
-    font-weight: 800;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+
+    /*font-size: 18px;*/
+    /*font-weight: 800;*/
+    /*line-height: inherit;*/
+}
+.mx-ul-check h3 {
+    font-size: 16px;
 }
 .mx-type-site-parts-name {
     font-size: 16px;
@@ -84,6 +90,12 @@ h3 {
 
 .mx-mont-font {
     font-family: 'Montserrat', sans-serif;
+}
+.product-detail-des h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
 }
 .mx-prices-in-type-site {
     color: #00a223 !important;
@@ -174,11 +186,24 @@ h3 {
     padding: 5px 26px;
     margin-bottom: 5px;
 }
-
+.mx-h1-category-name {
+    font-size: 35px !important;
+}
 .mx-ul-check ul {
     padding-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
 }
+.mx-politika {
+    color: #888888;
+    font-size: 10px;
+    font-family: Montserrat;
+    line-height: 10px;
+}
+.mx-politika a {
+    color: #2c80ff;
+}
+
 .mx-ul-plus ul > li:before {
     content: "\f055";
     font-family: 'FontAwesome';
@@ -311,12 +336,16 @@ font-size: 22px;
     float: none;
     display: inline-block;
 }
-
+.mx-reach-text-h2-h3 h2, .mx-reach-text-h2-h3 h3{
+    font-size: 22px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
 .nav.nav-tabs li a {
     border: none;
     line-height: normal;
     margin-right: 10px;
-    border-radius: 90px;
+
     padding: 12px 30px;
     background: #f6f7f8;
     color: #353535;
@@ -584,12 +613,37 @@ ul.list-style-right li i {
 .hidden {
     display: none !important;
 }
+.mx-no-padding {
+    padding: 0px 0px !important;
+}
+.icon-rounded {height: 60px; line-height: 63px;border: 2px solid #000;text-align: center;display: inline-block;min-width: 60px;font-size: 24px;}
+.mx-icon-img-faq {
+    margin-bottom: 9px;
+}
+.mx-text-modules {
+    font-size: 14px;
+    line-height: 14px;
+}
+.mx-blue-bg {
+    background: #d7dfff;
+}
+.sidebar-widgets-wrap .widget-link ul li  i {
+    padding-right: 10px;
+
+}
+.mx-current-li {
+    color: #6495ed;
+}
+@media (max-width: 767px) {
+    .nav.nav-tabs li {
+        width: 40%;
+    }
+}
 @media (max-width: 1159px) {
     .mega-menu .menu-logo img {
         height: 55px;
     }
 }
-
 
 @media (min-width: 576px) {
     .modal-dialog {

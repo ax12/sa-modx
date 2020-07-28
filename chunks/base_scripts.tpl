@@ -37,7 +37,25 @@
 <!-- custom -->
 <!--  <script type="text/javascript" src="assets/js/custom.js"></script> -->
 
+{ignore}
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){ m[i]=m[i]||function(){ (m[i].a=m[i].a||[]).push(arguments) };
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a) })
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
+    ym(52880818, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+    });
+</script>
+{/ignore}
+<noscript><div><img src="https://mc.yandex.ru/watch/52880818" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+{ignore}
 <script type='text/javascript'>
     (function () {
         window['yandexChatWidgetCallback'] = function() {
@@ -60,7 +78,7 @@
         n.parentNode.insertBefore(s, n);
     })();
 </script>
-
+{/ignore}
 {ignore}
 <script type="text/javascript">
     var tpj=jQuery;
@@ -112,7 +130,8 @@
         }
     });	/*ready*/
 </script>
-
+{/ignore}
+{ignore}
 <script type="text/javascript">
     $(function() {
         $("img.lazy").lazyload({
@@ -134,11 +153,9 @@
         shine: true
     });
 </script>
-
 {/ignore}
-
-
 {ignore}
+
 <script>
     $(document).ready(function(){
         $(document).on('af_complete', function(event, response) {

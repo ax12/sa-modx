@@ -5,8 +5,13 @@
         <h1 class="title text-white mx-mobile-header">{$_modx->resource.header_title}</h1>
         <p >{$_modx->resource.des_title}<br><br>
 
-            <i class="ti-location-pin"> </i><span> Екатеринбург</span>
-            <span class="text-nowrap"><i class="ti-headphone-alt"> </i><a class="text-light text-nowrap" href="tel:{$_modx->getPlaceholder('+option_telephone_ekb')}">{$_modx->getPlaceholder('+option_telephone_ekb')}</a></span><br>
+            <i class="ti-location-pin"> </i><span> {$_modx->getPlaceholder('+option_city_ekb')}</span><br>
+            <span class="text-nowrap">
+                <i class="ti-headphone-alt"> </i><a class="text-light text-nowrap" href="tel:{$_modx->getPlaceholder('+option_telephone_ekb')}">
+                    {$_modx->getPlaceholder('+option_telephone_ekb')}</a></span><br>
+            <i class="ti-headphone-alt"> </i><a class="text-light text-nowrap" href="tel:{$_modx->getPlaceholder('+option_telephone_2_ekb')}">
+                {$_modx->getPlaceholder('+option_telephone_2_ekb')}</a></span><br>
+
             {if $_modx->getPlaceholder('+is_krasnodar')}
             <i class="ti-location-pin"> </i><span> Краснодар</span>
             <i class="ti-headphone-alt"> </i><span>{$_modx->getPlaceholder('+option_telephone_krnd')}</span><br>

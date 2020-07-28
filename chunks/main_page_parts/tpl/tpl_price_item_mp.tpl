@@ -4,12 +4,12 @@
             <div class="col-md-12">
                 <div class="pricing pricing-01 text-center">
                     <div class="pricing-title">
-                        <div class="section-title text-center">
+                        <div class="section-title text-center mx-3">
                             <h2 class="text-center mx-header-prc">{$_pls["tv.header_on_mp"]}</h2>
                             <span>{$_pls["tv.subheader_on_mp"]}</span>
                         </div>
                         <div class="pricing-img">
-                            <img src="assets/images/target-bord.png" alt="" height="80px">
+                            <img src="{$_pls["tv.single_icon_in_category"] |  phpthumbon:'h=70&q=99'}" alt="">
                         </div>
                         <div class="pricing-prize">
                             <p class="text-black mx-prices"><span>от </span> <span  class="mx-ul-rub">{$_pls["tv.price"]}</span> </p>

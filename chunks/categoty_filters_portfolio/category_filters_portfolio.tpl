@@ -1,4 +1,4 @@
-<section class="page-section-pt mx-gilroy">
+<section class="page-section-pt">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

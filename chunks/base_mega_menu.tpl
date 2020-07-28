@@ -77,10 +77,10 @@
                         </div>
                         <!--grid column 3-->
                         <div class="grid-col-3 mx-ul-menu">
-                            <a class="mx-geader-megamenu" href="{23 | url}">Контент услуги</a>
+                            <a class="mx-geader-megamenu" href="{24 | url}">Контент услуги</a>
 
                             {$_modx->runSnippet ('pdoMenu', [
-                            'parents'=> 23,
+                            'parents'=> 24,
                             'level'=>1,
 
 
@@ -106,7 +106,7 @@
                         <li><a href="{33 | url}">НОВОСТИ</a></li>
                     </ul>
                 </li>
-                <li><a href="{6 | url}"> КОНТАКТЫ <i class="fa fa-angle-down fa-indicator"></i> </a>
+                <li><a href="{6 | url}"> КОНТАКТЫ  </a>
 
                 </li>
                 <li class="side-menu-main">

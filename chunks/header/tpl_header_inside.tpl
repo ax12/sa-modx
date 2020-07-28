@@ -3,7 +3,7 @@
 <header id="header" class="default">
     <div class="topbar">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-end">
                 <div class="col-md-6">
                     {if $_modx->getPlaceholder('+is_krasnodar')}
                     <div class="topbar-left  text-center text-md-left">
@@ -20,7 +20,7 @@
                     </div>
                     {/if}
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-10">
                     <div class="topbar-right text-center text-md-right">
                         <ul class="list-inline">
                             <li> <i class="ti-location-pin"> </i>
@@ -29,6 +29,11 @@
                             <li> <i class="ti-headphone-alt"></i>
                                 <a class="text-light" href="tel:{$_modx->getPlaceholder('+option_telephone_ekb')}">
                                     {$_modx->getPlaceholder('+option_telephone_ekb')}</a>
+
+                            </li>
+                            <li> <i class="ti-headphone-alt"></i>
+                                <a class="text-light" href="tel:{$_modx->getPlaceholder('+option_telephone_2_ekb')}">
+                                    {$_modx->getPlaceholder('+option_telephone_2_ekb')}</a>
 
                             </li>
                             <li>

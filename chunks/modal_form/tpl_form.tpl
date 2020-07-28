@@ -34,8 +34,11 @@
                 </div>
             </div>
             <div class="modal-footer">
+                <p class="mx-politika">Нажимая кнопку "Отправить", вы соглашаетесь с
+                    <a href="{25 | url}" target="_blank">политикой обработки персональных данных</a></p>
                 <div class="fields">
                     <button type="submit" class="button mx-cursor-pointer">Отправить</button>
+
                 </div>
             </div>
         </div>

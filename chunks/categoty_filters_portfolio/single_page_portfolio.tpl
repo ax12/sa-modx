@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="single-image mx-img-portfolio-design">
-                    <img class="img-fluid" src="{$_modx->resource.main_img_in_design_item_page | phpthumbon:'w=550&h=550&q=99'}" alt="">
+                    <img class="img-fluid" src="{$_modx->resource.main_img_in_design_item_page | phpthumbon:'w=550&q=99'}" alt="">
                 </div>
             </div>
             <div class="col-md-6">
@@ -28,10 +28,12 @@
             <div class="row">
                 {set $images = json_decode($_modx->resource.gallery_in_portfolio_design, true)}
                 {foreach $images as $image}
-                {var $img = '/assets/files/design/'~$image.image}
+                {var $img = 'assets/files/design/'~$image.image}
                 <div class="col-md-6">
                     {if $image.title} <h5>{$image.title}</h5> {/if}
-                    <img class="img-fluid mx-img-portfolio-design" src="{$img | phpthumbon:'w=550&h=550&q=99'}" alt="{$image.image}">
+                   {if $image.image}
+                    <img class="img-fluid mx-img-portfolio-design" src="{$img | phpthumbon:'w=550&h=550&q=99'}" alt="{$image.title}">
+                    {/if}
                 </div>
                 {/foreach}
             </div>
